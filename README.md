@@ -1,4 +1,4 @@
-# Estudo de GraphX e Graphframes
+# Research about GraphX and Graphframes
 
 This project contains a simple research about feature and general aspects of [Apache Spark](https://spark.apache.org/) and frameworks [GraphX](https://spark.apache.org/graphx/) and [Graphframes](http://graphframes.github.io/graphframes).
 
