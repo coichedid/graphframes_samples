@@ -1,0 +1,278 @@
+ WARN [2019-11-26 11:07:00,781] ({main} ZeppelinConfiguration.java[create]:117) - Failed to load configuration, proceeding with a default
+ INFO [2019-11-26 11:07:00,870] ({main} ZeppelinConfiguration.java[create]:129) - Server Host: 0.0.0.0
+ INFO [2019-11-26 11:07:00,876] ({main} ZeppelinConfiguration.java[create]:131) - Server Port: 8090
+ INFO [2019-11-26 11:07:00,877] ({main} ZeppelinConfiguration.java[create]:135) - Context Path: /
+ INFO [2019-11-26 11:07:00,883] ({main} ZeppelinConfiguration.java[create]:136) - Zeppelin Version: 0.8.1
+ INFO [2019-11-26 11:07:00,922] ({main} Log.java[initialized]:193) - Logging initialized @495ms to org.eclipse.jetty.util.log.Slf4jLog
+ WARN [2019-11-26 11:07:01,114] ({main} ServerConnector.java[setSoLingerTime]:458) - Ignoring deprecated socket close linger time
+ INFO [2019-11-26 11:07:01,183] ({main} ZeppelinServer.java[setupWebAppContext]:413) - ZeppelinServer Webapp path: /zeppelin/webapps
+ INFO [2019-11-26 11:07:01,352] ({main} ZeppelinServer.java[main]:239) - Starting zeppelin server
+ INFO [2019-11-26 11:07:01,355] ({main} Server.java[doStart]:370) - jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 1.8.0_191-8u191-b12-0ubuntu0.16.04.1-b12
+ INFO [2019-11-26 11:07:03,977] ({main} StandardDescriptorProcessor.java[visitServlet]:283) - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+ INFO [2019-11-26 11:07:03,995] ({main} DefaultSessionIdManager.java[doStart]:365) - DefaultSessionIdManager workerName=node0
+ INFO [2019-11-26 11:07:03,996] ({main} DefaultSessionIdManager.java[doStart]:370) - No SessionScavenger set, using defaults
+ INFO [2019-11-26 11:07:04,000] ({main} HouseKeeper.java[startScavenging]:149) - node0 Scavenging every 660000ms
+ INFO [2019-11-26 11:07:04,387] ({main} SchedulerFactory.java[<init>]:59) - Scheduler Thread Pool Size: 100
+ WARN [2019-11-26 11:07:04,415] ({main} ZeppelinConfiguration.java[getConfigFSDir]:527) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir
+ WARN [2019-11-26 11:07:04,419] ({main} ZeppelinConfiguration.java[getConfigFSDir]:527) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir
+ INFO [2019-11-26 11:07:04,547] ({main} InterpreterSettingManager.java[<init>]:165) - Using RecoveryStorage: org.apache.zeppelin.interpreter.recovery.NullRecoveryStorage
+ INFO [2019-11-26 11:07:04,555] ({main} InterpreterSettingManager.java[<init>]:169) - Using LifecycleManager: org.apache.zeppelin.interpreter.lifecycle.NullLifecycleManager
+ INFO [2019-11-26 11:07:04,690] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: angular
+ INFO [2019-11-26 11:07:04,706] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: pig
+ WARN [2019-11-26 11:07:04,721] ({main} InterpreterSettingManager.java[init]:331) - No interpreter-setting.json found in /zeppelin/interpreter/lib
+ WARN [2019-11-26 11:07:04,730] ({main} InterpreterSettingManager.java[init]:331) - No interpreter-setting.json found in /zeppelin/interpreter/${interpreter.name}
+ INFO [2019-11-26 11:07:04,745] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: python
+ INFO [2019-11-26 11:07:04,755] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: groovy
+ INFO [2019-11-26 11:07:04,764] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: neo4j
+ INFO [2019-11-26 11:07:04,783] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: spark
+ INFO [2019-11-26 11:07:04,797] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: file
+ WARN [2019-11-26 11:07:04,912] ({main} InterpreterSettingManager.java[init]:331) - No interpreter-setting.json found in /zeppelin/interpreter/scio
+ INFO [2019-11-26 11:07:04,923] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: cassandra
+ INFO [2019-11-26 11:07:04,928] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: kylin
+ INFO [2019-11-26 11:07:04,934] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: livy
+ INFO [2019-11-26 11:07:04,943] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: elasticsearch
+ INFO [2019-11-26 11:07:04,952] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: flink
+ INFO [2019-11-26 11:07:04,955] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: lens
+ INFO [2019-11-26 11:07:04,958] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: jdbc
+ INFO [2019-11-26 11:07:04,965] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: hbase
+ INFO [2019-11-26 11:07:04,969] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: sh
+ INFO [2019-11-26 11:07:04,998] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: ignite
+ INFO [2019-11-26 11:07:05,008] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: sap
+ INFO [2019-11-26 11:07:05,024] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: bigquery
+ INFO [2019-11-26 11:07:05,027] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: md
+ INFO [2019-11-26 11:07:05,037] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: alluxio
+ WARN [2019-11-26 11:07:05,039] ({main} LocalConfigStorage.java[loadInterpreterSettings]:60) - Interpreter Setting file /zeppelin/conf/interpreter.json is not existed
+ INFO [2019-11-26 11:07:05,091] ({main} LocalConfigStorage.java[save]:53) - Save Interpreter Setting to /zeppelin/conf/interpreter.json
+ INFO [2019-11-26 11:07:05,293] ({main} VfsLog.java[info]:138) - Using "/tmp/vfs_cache" as temporary files store.
+ INFO [2019-11-26 11:07:05,380] ({main} GitNotebookRepo.java[<init>]:64) - Opening a git repo at '/zeppelin/notebook'
+ INFO [2019-11-26 11:07:05,648] ({main} NotebookRepoSync.java[<init>]:77) - Instantiate NotebookRepo: org.apache.zeppelin.notebook.repo.GitNotebookRepo
+ WARN [2019-11-26 11:07:05,798] ({main} NotebookAuthorization.java[getInstance]:86) - Notebook authorization module was called without initialization, initializing with default configuration
+ WARN [2019-11-26 11:07:05,799] ({main} LocalConfigStorage.java[loadNotebookAuthorization]:77) - NotebookAuthorization file /zeppelin/conf/notebook-authorization.json is not existed
+ INFO [2019-11-26 11:07:05,800] ({main} Credentials.java[loadFromFile]:121) - /zeppelin/conf/credentials.json
+ INFO [2019-11-26 11:07:05,846] ({main} StdSchedulerFactory.java[instantiate]:1184) - Using default implementation for ThreadExecutor
+ INFO [2019-11-26 11:07:05,850] ({main} SimpleThreadPool.java[initialize]:268) - Job execution threads will use class loader of thread: main
+ INFO [2019-11-26 11:07:05,873] ({main} SchedulerSignalerImpl.java[<init>]:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+ INFO [2019-11-26 11:07:05,875] ({main} QuartzScheduler.java[<init>]:240) - Quartz Scheduler v.2.2.1 created.
+ INFO [2019-11-26 11:07:05,877] ({main} RAMJobStore.java[initialize]:155) - RAMJobStore initialized.
+ INFO [2019-11-26 11:07:05,878] ({main} QuartzScheduler.java[initialize]:305) - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+ INFO [2019-11-26 11:07:05,879] ({main} StdSchedulerFactory.java[instantiate]:1339) - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+ INFO [2019-11-26 11:07:05,880] ({main} StdSchedulerFactory.java[instantiate]:1343) - Quartz scheduler version: 2.2.1
+ INFO [2019-11-26 11:07:05,881] ({main} QuartzScheduler.java[start]:575) - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+ INFO [2019-11-26 11:07:05,959] ({main} FolderView.java[createFolder]:107) - Create folder /
+ INFO [2019-11-26 11:07:05,962] ({main} Folder.java[setParent]:169) - Set parent of / to /
+ INFO [2019-11-26 11:07:05,962] ({main} Folder.java[addNote]:185) - Add note 2EUMCVM9H to folder /
+ WARN [2019-11-26 11:07:05,965] ({main} Notebook.java[refreshCron]:981) - execution of the cron job is skipped cron is not enabled from Zeppelin server
+ INFO [2019-11-26 11:07:05,965] ({main} Notebook.java[<init>]:127) - Notebook indexing started...
+ INFO [2019-11-26 11:07:06,138] ({main} LuceneSearch.java[addIndexDocs]:305) - Indexing 1 notebooks took 172ms
+ INFO [2019-11-26 11:07:06,139] ({main} Notebook.java[<init>]:129) - Notebook indexing finished: 1 indexed in 0s
+ INFO [2019-11-26 11:07:06,142] ({main} Helium.java[loadConf]:103) - Add helium local registry /zeppelin/helium
+ INFO [2019-11-26 11:07:06,143] ({main} Helium.java[loadConf]:100) - Add helium online registry https://s3.amazonaws.com/helium-package/helium.json
+ WARN [2019-11-26 11:07:06,146] ({main} Helium.java[loadConf]:111) - /zeppelin/conf/helium.json does not exists
+ INFO [2019-11-26 11:07:09,077] ({main} ContextHandler.java[doStart]:855) - Started o.e.j.w.WebAppContext@5af97850{zeppelin-web,/,file:///zeppelin/webapps/webapp/,AVAILABLE}{/zeppelin/zeppelin-web-0.8.1.war}
+ INFO [2019-11-26 11:07:09,097] ({main} AbstractConnector.java[doStart]:292) - Started ServerConnector@22a6e998{HTTP/1.1,[http/1.1]}{0.0.0.0:8090}
+ INFO [2019-11-26 11:07:09,099] ({main} Server.java[doStart]:407) - Started @8677ms
+ INFO [2019-11-26 11:07:09,100] ({main} ZeppelinServer.java[main]:249) - Done, zeppelin server started
+ WARN [2019-11-26 11:07:18,379] ({qtp2107447833-13} SecurityRestApi.java[ticket]:88) - {"status":"OK","message":"","body":{"principal":"anonymous","ticket":"anonymous","roles":"[]"}}
+ INFO [2019-11-26 11:07:18,984] ({qtp2107447833-9} NotebookServer.java[onOpen]:151) - New connection from 172.18.0.1 : 56672
+ INFO [2019-11-26 11:07:22,243] ({qtp2107447833-11} NotebookServer.java[sendNote]:828) - New operation from 172.18.0.1 : 56672 : anonymous : GET_NOTE : 2EUMCVM9H
+ WARN [2019-11-26 11:07:22,797] ({qtp2107447833-11} GitNotebookRepo.java[revisionHistory]:158) - No Head found for 2EUMCVM9H, No HEAD exists and no explicit starting revision was specified
+ WARN [2019-11-26 11:07:22,839] ({qtp2107447833-11} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:07:22,842] ({qtp2107447833-11} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:07:22,844] ({qtp2107447833-11} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:07:22,845] ({qtp2107447833-11} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:07:22,846] ({qtp2107447833-11} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:07:22,847] ({qtp2107447833-11} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:07:22,880] ({qtp2107447833-9} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: 
+ WARN [2019-11-26 11:07:23,214] ({qtp2107447833-14} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: dep
+ WARN [2019-11-26 11:07:23,222] ({qtp2107447833-14} NotebookServer.java[getEditorSetting]:2472) - Fail to get interpreter: pyspark
+ INFO [2019-11-26 11:07:29,335] ({qtp2107447833-14} LocalConfigStorage.java[save]:53) - Save Interpreter Setting to /zeppelin/conf/interpreter.json
+ WARN [2019-11-26 11:07:29,343] ({qtp2107447833-14} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:07:29,347] ({qtp2107447833-14} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:07:29,349] ({qtp2107447833-14} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:07:29,350] ({qtp2107447833-14} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:07:29,352] ({qtp2107447833-14} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:07:29,355] ({qtp2107447833-14} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2019-11-26 11:07:54,152] ({qtp2107447833-14} VFSNotebookRepo.java[save]:196) - Saving note:2EUMCVM9H
+ INFO [2019-11-26 11:08:35,812] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2EUMCVM9H
+ INFO [2019-11-26 11:08:35,830] ({qtp2107447833-12} InterpreterSetting.java[getOrCreateInterpreterGroup]:419) - Create InterpreterGroup with groupId: spark:shared_process for user: anonymous and note: 2EUMCVM9H
+ INFO [2019-11-26 11:08:35,835] ({qtp2107447833-12} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.SparkInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2019-11-26 11:08:35,839] ({qtp2107447833-12} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.SparkSqlInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2019-11-26 11:08:35,840] ({qtp2107447833-12} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.DepInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2019-11-26 11:08:35,840] ({qtp2107447833-12} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.PySparkInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2019-11-26 11:08:35,841] ({qtp2107447833-12} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.IPySparkInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2019-11-26 11:08:35,841] ({qtp2107447833-12} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.SparkRInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2019-11-26 11:08:35,843] ({qtp2107447833-12} ManagedInterpreterGroup.java[getOrCreateSession]:158) - Create Session: shared_session in InterpreterGroup: spark:shared_process for user: anonymous
+ INFO [2019-11-26 11:08:35,893] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:114) - Job 20191126-105548_2050929170 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2019-11-26 11:08:35,901] ({pool-2-thread-2} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20191126-105548_2050929170, interpreter: dep, note_id: 2EUMCVM9H, user: anonymous]
+ INFO [2019-11-26 11:08:35,904] ({pool-2-thread-2} ManagedInterpreterGroup.java[getOrCreateInterpreterProcess]:61) - Create InterpreterProcess for InterpreterGroup: spark:shared_process
+ INFO [2019-11-26 11:08:35,909] ({pool-2-thread-2} ShellScriptLauncher.java[launch]:48) - Launching Interpreter: spark
+ INFO [2019-11-26 11:08:35,928] ({pool-2-thread-2} SparkInterpreterLauncher.java[buildEnvFromProperties]:108) - Run Spark under non-secure mode as no keytab and principal is specified
+ INFO [2019-11-26 11:08:35,947] ({pool-2-thread-2} RemoteInterpreterManagedProcess.java[start]:115) - Thrift server for callback will start. Port: 34547
+ INFO [2019-11-26 11:08:36,466] ({pool-2-thread-2} RemoteInterpreterManagedProcess.java[start]:190) - Run interpreter process [/zeppelin/bin/interpreter.sh, -d, /zeppelin/interpreter/spark, -c, 172.18.0.6, -p, 34547, -r, :, -l, /zeppelin/local-repo/spark, -g, spark]
+ INFO [2019-11-26 11:08:39,945] ({pool-7-thread-1} RemoteInterpreterManagedProcess.java[callback]:123) - RemoteInterpreterServer Registered: CallbackInfo(host:172.18.0.6, port:32975)
+ INFO [2019-11-26 11:08:40,070] ({pool-2-thread-2} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.SparkInterpreter
+ INFO [2019-11-26 11:08:40,256] ({pool-2-thread-2} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.SparkSqlInterpreter
+ INFO [2019-11-26 11:08:40,262] ({pool-2-thread-2} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.DepInterpreter
+ INFO [2019-11-26 11:08:40,278] ({pool-2-thread-2} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.PySparkInterpreter
+ INFO [2019-11-26 11:08:40,293] ({pool-2-thread-2} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.IPySparkInterpreter
+ INFO [2019-11-26 11:08:40,305] ({pool-2-thread-2} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.SparkRInterpreter
+ INFO [2019-11-26 11:08:40,310] ({pool-2-thread-2} RemoteInterpreter.java[call]:142) - Open RemoteInterpreter org.apache.zeppelin.spark.DepInterpreter
+ INFO [2019-11-26 11:08:40,311] ({pool-2-thread-2} RemoteInterpreter.java[pushAngularObjectRegistryToRemote]:436) - Push local angular object registry from ZeppelinServer to remote interpreter group spark:shared_process
+ INFO [2019-11-26 11:08:50,204] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2314) - Job 20191126-105548_2050929170 is finished successfully, status: FINISHED
+ INFO [2019-11-26 11:08:50,254] ({pool-2-thread-2} VFSNotebookRepo.java[save]:196) - Saving note:2EUMCVM9H
+ INFO [2019-11-26 11:08:50,279] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:120) - Job 20191126-105548_2050929170 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2019-11-26 11:08:54,985] ({qtp2107447833-12} VFSNotebookRepo.java[save]:196) - Saving note:2EUMCVM9H
+ INFO [2019-11-26 11:08:55,005] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:114) - Job 20191126-101625_1939198952 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2019-11-26 11:08:55,010] ({pool-2-thread-2} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20191126-101625_1939198952, interpreter: pyspark, note_id: 2EUMCVM9H, user: anonymous]
+ INFO [2019-11-26 11:08:55,017] ({pool-2-thread-2} RemoteInterpreter.java[call]:142) - Open RemoteInterpreter org.apache.zeppelin.spark.PySparkInterpreter
+ WARN [2019-11-26 11:09:15,281] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2316) - Job 20191126-101625_1939198952 is finished, status: ERROR, exception: null, result: %text ['', u'/tmp/spark-c24bef01-9457-436d-a08a-ffea9e419a5e/userFiles-bef16873-b7da-4893-8d9c-c6c888acf431', '/opt/spark/python/lib/pyspark.zip', '/opt/spark/python/lib/py4j-0.10.7-src.zip', '/zeppelin/interpreter/lib/python', '/opt/spark/python', '/zeppelin', '/opt/conda/lib/python27.zip', '/opt/conda/lib/python2.7', '/opt/conda/lib/python2.7/plat-linux2', '/opt/conda/lib/python2.7/lib-tk', '/opt/conda/lib/python2.7/lib-old', '/opt/conda/lib/python2.7/lib-dynload', '/opt/conda/lib/python2.7/site-packages', '/opt/conda/lib/python2.7/site-packages/setuptools-27.2.0-py2.7.egg', '/opt/conda/lib/python2.7/site-packages/IPython/extensions', '/root/.ipython']
+[0;31m[0m
+[0;31mImportError[0mTraceback (most recent call last)
+[0;32m<ipython-input-4-d7d2ed930785>[0m in [0;36m<module>[0;34m()[0m
+[1;32m      2[0m [0;32mprint[0m[0;34m([0m[0msys[0m[0;34m.[0m[0mpath[0m[0;34m)[0m[0;34m[0m[0m
+[1;32m      3[0m [0;31m# z.load('graphframes:graphframes:0.7.0-spark2.4-s_2.11'[0m[0;34m[0m[0;34m[0m[0m
+[0;32m----> 4[0;31m [0;32mimport[0m [0mgraphframes[0m[0;34m[0m[0m
+[0m
+[0;31mImportError[0m: No module named graphframes
+ INFO [2019-11-26 11:09:15,324] ({pool-2-thread-2} VFSNotebookRepo.java[save]:196) - Saving note:2EUMCVM9H
+ INFO [2019-11-26 11:09:15,356] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:120) - Job 20191126-101625_1939198952 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ WARN [2019-11-26 11:10:20,280] ({qtp2107447833-13} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:10:20,296] ({qtp2107447833-13} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:10:20,297] ({qtp2107447833-13} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:10:20,297] ({qtp2107447833-13} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:10:20,298] ({qtp2107447833-13} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:10:20,299] ({qtp2107447833-13} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2019-11-26 11:10:26,174] ({qtp2107447833-15} InterpreterRestApi.java[restartSetting]:180) - Restart interpreterSetting spark, msg=
+ INFO [2019-11-26 11:10:26,176] ({qtp2107447833-15} InterpreterSetting.java[close]:483) - Close InterpreterSetting: spark
+ INFO [2019-11-26 11:10:26,179] ({qtp2107447833-15} ManagedInterpreterGroup.java[close]:89) - Close InterpreterGroup: spark:shared_process
+ INFO [2019-11-26 11:10:26,180] ({qtp2107447833-15} ManagedInterpreterGroup.java[close]:100) - Close Session: shared_session for interpreter setting: spark
+ WARN [2019-11-26 11:10:26,181] ({qtp2107447833-15} RemoteInterpreter.java[close]:199) - close is called when RemoterInterpreter is not opened for org.apache.zeppelin.spark.SparkInterpreter
+ WARN [2019-11-26 11:10:26,185] ({qtp2107447833-15} RemoteInterpreter.java[close]:199) - close is called when RemoterInterpreter is not opened for org.apache.zeppelin.spark.SparkSqlInterpreter
+ WARN [2019-11-26 11:10:26,382] ({qtp2107447833-15} RemoteInterpreter.java[close]:199) - close is called when RemoterInterpreter is not opened for org.apache.zeppelin.spark.IPySparkInterpreter
+ WARN [2019-11-26 11:10:26,395] ({qtp2107447833-15} RemoteInterpreter.java[close]:199) - close is called when RemoterInterpreter is not opened for org.apache.zeppelin.spark.SparkRInterpreter
+ INFO [2019-11-26 11:10:26,403] ({qtp2107447833-15} ManagedInterpreterGroup.java[close]:105) - Remove this InterpreterGroup: spark:shared_process as all the sessions are closed
+ INFO [2019-11-26 11:10:26,404] ({qtp2107447833-15} ManagedInterpreterGroup.java[close]:108) - Kill RemoteInterpreterProcess
+ INFO [2019-11-26 11:10:26,407] ({qtp2107447833-15} RemoteInterpreterManagedProcess.java[stop]:220) - Kill interpreter process
+ERROR [2019-11-26 11:10:27,367] ({Thread-15} RemoteInterpreterEventPoller.java[run]:257) - Can not get RemoteInterpreterEvent because it is shutdown.
+ERROR [2019-11-26 11:10:27,369] ({pool-6-thread-1} AppendOutputRunner.java[run]:68) - Wait for OutputBuffer queue interrupted: null
+ WARN [2019-11-26 11:10:29,030] ({qtp2107447833-15} RemoteInterpreterManagedProcess.java[stop]:230) - ignore the exception when shutting down
+ INFO [2019-11-26 11:10:29,033] ({qtp2107447833-15} RemoteInterpreterManagedProcess.java[stop]:238) - Remote process terminated
+ INFO [2019-11-26 11:10:29,045] ({Exec Default Executor} RemoteInterpreterManagedProcess.java[onProcessComplete]:243) - Interpreter process exited 0
+ INFO [2019-11-26 11:10:31,834] ({qtp2107447833-9} NotebookServer.java[sendNote]:828) - New operation from 172.18.0.1 : 56672 : anonymous : GET_NOTE : 2EUMCVM9H
+ WARN [2019-11-26 11:10:32,044] ({qtp2107447833-9} GitNotebookRepo.java[revisionHistory]:158) - No Head found for 2EUMCVM9H, No HEAD exists and no explicit starting revision was specified
+ WARN [2019-11-26 11:10:32,049] ({qtp2107447833-9} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:10:32,055] ({qtp2107447833-9} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:10:32,060] ({qtp2107447833-9} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2019-11-26 11:10:32,057] ({qtp2107447833-11} InterpreterSetting.java[getOrCreateInterpreterGroup]:419) - Create InterpreterGroup with groupId: spark:shared_process for user: anonymous and note: 2EUMCVM9H
+ INFO [2019-11-26 11:10:32,074] ({qtp2107447833-11} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.SparkInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2019-11-26 11:10:32,076] ({qtp2107447833-11} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.SparkSqlInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2019-11-26 11:10:32,077] ({qtp2107447833-11} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.DepInterpreter created for user: anonymous, sessionId: shared_session
+ WARN [2019-11-26 11:10:32,072] ({qtp2107447833-9} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:10:32,079] ({qtp2107447833-9} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2019-11-26 11:10:32,080] ({qtp2107447833-9} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2019-11-26 11:10:32,078] ({qtp2107447833-11} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.PySparkInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2019-11-26 11:10:32,083] ({qtp2107447833-11} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.IPySparkInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2019-11-26 11:10:32,084] ({qtp2107447833-11} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.SparkRInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2019-11-26 11:10:32,086] ({qtp2107447833-11} ManagedInterpreterGroup.java[getOrCreateSession]:158) - Create Session: shared_session in InterpreterGroup: spark:shared_process for user: anonymous
+ INFO [2019-11-26 11:10:37,724] ({qtp2107447833-9} VFSNotebookRepo.java[save]:196) - Saving note:2EUMCVM9H
+ INFO [2019-11-26 11:10:37,745] ({pool-2-thread-6} SchedulerFactory.java[jobStarted]:114) - Job 20191126-105548_2050929170 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2019-11-26 11:10:37,753] ({pool-2-thread-6} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20191126-105548_2050929170, interpreter: spark.dep, note_id: 2EUMCVM9H, user: anonymous]
+ INFO [2019-11-26 11:10:37,761] ({pool-2-thread-6} ManagedInterpreterGroup.java[getOrCreateInterpreterProcess]:61) - Create InterpreterProcess for InterpreterGroup: spark:shared_process
+ INFO [2019-11-26 11:10:37,764] ({pool-2-thread-6} ShellScriptLauncher.java[launch]:48) - Launching Interpreter: spark
+ INFO [2019-11-26 11:10:37,767] ({pool-2-thread-6} SparkInterpreterLauncher.java[buildEnvFromProperties]:108) - Run Spark under non-secure mode as no keytab and principal is specified
+ INFO [2019-11-26 11:10:37,771] ({pool-2-thread-6} RemoteInterpreterManagedProcess.java[start]:115) - Thrift server for callback will start. Port: 39241
+ INFO [2019-11-26 11:10:38,274] ({pool-2-thread-6} RemoteInterpreterManagedProcess.java[start]:190) - Run interpreter process [/zeppelin/bin/interpreter.sh, -d, /zeppelin/interpreter/spark, -c, 172.18.0.6, -p, 39241, -r, :, -l, /zeppelin/local-repo/spark, -g, spark]
+ INFO [2019-11-26 11:10:41,511] ({pool-9-thread-1} RemoteInterpreterManagedProcess.java[callback]:123) - RemoteInterpreterServer Registered: CallbackInfo(host:172.18.0.6, port:37917)
+ INFO [2019-11-26 11:10:41,517] ({pool-2-thread-6} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.SparkInterpreter
+ INFO [2019-11-26 11:10:41,709] ({pool-2-thread-6} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.SparkSqlInterpreter
+ INFO [2019-11-26 11:10:41,716] ({pool-2-thread-6} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.DepInterpreter
+ INFO [2019-11-26 11:10:41,749] ({pool-2-thread-6} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.PySparkInterpreter
+ INFO [2019-11-26 11:10:41,760] ({pool-2-thread-6} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.IPySparkInterpreter
+ INFO [2019-11-26 11:10:41,770] ({pool-2-thread-6} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.SparkRInterpreter
+ INFO [2019-11-26 11:10:41,782] ({pool-2-thread-6} RemoteInterpreter.java[call]:142) - Open RemoteInterpreter org.apache.zeppelin.spark.DepInterpreter
+ INFO [2019-11-26 11:10:41,783] ({pool-2-thread-6} RemoteInterpreter.java[pushAngularObjectRegistryToRemote]:436) - Push local angular object registry from ZeppelinServer to remote interpreter group spark:shared_process
+ INFO [2019-11-26 11:10:50,951] ({pool-2-thread-6} NotebookServer.java[afterStatusChange]:2314) - Job 20191126-105548_2050929170 is finished successfully, status: FINISHED
+ INFO [2019-11-26 11:10:50,980] ({pool-2-thread-6} VFSNotebookRepo.java[save]:196) - Saving note:2EUMCVM9H
+ INFO [2019-11-26 11:10:51,009] ({pool-2-thread-6} SchedulerFactory.java[jobFinished]:120) - Job 20191126-105548_2050929170 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2019-11-26 11:10:54,599] ({qtp2107447833-13} VFSNotebookRepo.java[save]:196) - Saving note:2EUMCVM9H
+ INFO [2019-11-26 11:10:54,620] ({pool-2-thread-1} SchedulerFactory.java[jobStarted]:114) - Job 20191126-101625_1939198952 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2019-11-26 11:10:54,624] ({pool-2-thread-1} Paragraph.java[jobRun]:380) - Run paragraph [paragraph_id: 20191126-101625_1939198952, interpreter: pyspark, note_id: 2EUMCVM9H, user: anonymous]
+ INFO [2019-11-26 11:10:54,635] ({pool-2-thread-1} RemoteInterpreter.java[call]:142) - Open RemoteInterpreter org.apache.zeppelin.spark.PySparkInterpreter
+ WARN [2019-11-26 11:11:12,011] ({pool-2-thread-1} NotebookServer.java[afterStatusChange]:2316) - Job 20191126-101625_1939198952 is finished, status: ERROR, exception: null, result: %text ['', u'/tmp/spark-d7c28354-0f83-4db8-bf19-40d845f454c3/userFiles-8d448133-eef0-42a5-8e49-070fab02b580', '/opt/spark/python/lib/pyspark.zip', '/opt/spark/python/lib/py4j-0.10.7-src.zip', '/zeppelin/interpreter/lib/python', '/opt/spark/python', '/zeppelin', '/opt/conda/lib/python27.zip', '/opt/conda/lib/python2.7', '/opt/conda/lib/python2.7/plat-linux2', '/opt/conda/lib/python2.7/lib-tk', '/opt/conda/lib/python2.7/lib-old', '/opt/conda/lib/python2.7/lib-dynload', '/opt/conda/lib/python2.7/site-packages', '/opt/conda/lib/python2.7/site-packages/setuptools-27.2.0-py2.7.egg', '/opt/conda/lib/python2.7/site-packages/IPython/extensions', '/root/.ipython']
+[0;31m[0m
+[0;31mImportError[0mTraceback (most recent call last)
+[0;32m<ipython-input-4-d7d2ed930785>[0m in [0;36m<module>[0;34m()[0m
+[1;32m      2[0m [0;32mprint[0m[0;34m([0m[0msys[0m[0;34m.[0m[0mpath[0m[0;34m)[0m[0;34m[0m[0m
+[1;32m      3[0m [0;31m# z.load('graphframes:graphframes:0.7.0-spark2.4-s_2.11'[0m[0;34m[0m[0;34m[0m[0m
+[0;32m----> 4[0;31m [0;32mimport[0m [0mgraphframes[0m[0;34m[0m[0m
+[0m
+[0;31mImportError[0m: No module named graphframes
+ INFO [2019-11-26 11:11:12,045] ({pool-2-thread-1} VFSNotebookRepo.java[save]:196) - Saving note:2EUMCVM9H
+ INFO [2019-11-26 11:11:12,057] ({pool-2-thread-1} SchedulerFactory.java[jobFinished]:120) - Job 20191126-101625_1939198952 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2019-11-26 11:12:23,392] ({qtp2107447833-9} NotebookServer.java[onClose]:372) - Closed connection to 172.18.0.1 : 56672. (1001) null
+ INFO [2019-11-26 11:12:35,291] ({Thread-13} ZeppelinServer.java[run]:253) - Shutting down Zeppelin Server ... 
+ INFO [2019-11-26 11:12:35,323] ({Thread-13} AbstractConnector.java[doStop]:341) - Stopped ServerConnector@22a6e998{HTTP/1.1,[http/1.1]}{0.0.0.0:8090}
+ INFO [2019-11-26 11:12:35,324] ({Thread-13} HouseKeeper.java[stopScavenging]:167) - node0 Stopped scavenging
+ INFO [2019-11-26 11:12:36,043] ({Exec Default Executor} RemoteInterpreterManagedProcess.java[onProcessFailed]:250) - Interpreter process failed {}
+org.apache.commons.exec.ExecuteException: Process exited with an error: 130 (Exit value: 130)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.access$200(DefaultExecutor.java:48)
+	at org.apache.commons.exec.DefaultExecutor$1.run(DefaultExecutor.java:200)
+	at java.lang.Thread.run(Thread.java:748)
+ INFO [2019-11-26 11:12:36,846] ({Thread-13} ContextHandler.java[doStop]:1045) - Stopped o.e.j.w.WebAppContext@5af97850{zeppelin-web,/,null,UNAVAILABLE}{/zeppelin/zeppelin-web-0.8.1.war}
+ INFO [2019-11-26 11:12:36,850] ({Thread-26} InterpreterSetting.java[close]:483) - Close InterpreterSetting: ignite
+ INFO [2019-11-26 11:12:36,851] ({Thread-27} InterpreterSetting.java[close]:483) - Close InterpreterSetting: python
+ INFO [2019-11-26 11:12:36,852] ({Thread-28} InterpreterSetting.java[close]:483) - Close InterpreterSetting: sap
+ INFO [2019-11-26 11:12:36,852] ({Thread-29} InterpreterSetting.java[close]:483) - Close InterpreterSetting: jdbc
+ INFO [2019-11-26 11:12:36,854] ({Thread-31} InterpreterSetting.java[close]:483) - Close InterpreterSetting: pig
+ INFO [2019-11-26 11:12:36,855] ({Thread-35} InterpreterSetting.java[close]:483) - Close InterpreterSetting: groovy
+ INFO [2019-11-26 11:12:36,856] ({Thread-37} InterpreterSetting.java[close]:483) - Close InterpreterSetting: file
+ INFO [2019-11-26 11:12:36,857] ({Thread-38} InterpreterSetting.java[close]:483) - Close InterpreterSetting: elasticsearch
+ INFO [2019-11-26 11:12:36,858] ({Thread-39} InterpreterSetting.java[close]:483) - Close InterpreterSetting: spark
+ INFO [2019-11-26 11:12:36,866] ({Thread-39} ManagedInterpreterGroup.java[close]:89) - Close InterpreterGroup: spark:shared_process
+ INFO [2019-11-26 11:12:36,867] ({Thread-39} ManagedInterpreterGroup.java[close]:100) - Close Session: shared_session for interpreter setting: spark
+ INFO [2019-11-26 11:12:36,853] ({Thread-30} InterpreterSetting.java[close]:483) - Close InterpreterSetting: lens
+ INFO [2019-11-26 11:12:36,868] ({Thread-47} InterpreterSetting.java[close]:483) - Close InterpreterSetting: python
+ WARN [2019-11-26 11:12:36,868] ({Thread-39} RemoteInterpreter.java[close]:199) - close is called when RemoterInterpreter is not opened for org.apache.zeppelin.spark.SparkInterpreter
+ INFO [2019-11-26 11:12:36,867] ({Thread-25} InterpreterSetting.java[close]:483) - Close InterpreterSetting: ignite
+ INFO [2019-11-26 11:12:36,866] ({Thread-46} InterpreterSetting.java[close]:483) - Close InterpreterSetting: kylin
+ INFO [2019-11-26 11:12:36,866] ({Thread-36} InterpreterSetting.java[close]:483) - Close InterpreterSetting: neo4j
+ INFO [2019-11-26 11:12:36,888] ({Thread-55} InterpreterSetting.java[close]:483) - Close InterpreterSetting: groovy
+ INFO [2019-11-26 11:12:36,860] ({Thread-45} InterpreterSetting.java[close]:483) - Close InterpreterSetting: hbase
+ INFO [2019-11-26 11:12:36,860] ({Thread-44} InterpreterSetting.java[close]:483) - Close InterpreterSetting: bigquery
+ INFO [2019-11-26 11:12:36,860] ({Thread-43} InterpreterSetting.java[close]:483) - Close InterpreterSetting: alluxio
+ INFO [2019-11-26 11:12:36,859] ({Thread-42} InterpreterSetting.java[close]:483) - Close InterpreterSetting: md
+ INFO [2019-11-26 11:12:36,859] ({Thread-41} InterpreterSetting.java[close]:483) - Close InterpreterSetting: sh
+ INFO [2019-11-26 11:12:36,859] ({Thread-40} InterpreterSetting.java[close]:483) - Close InterpreterSetting: cassandra
+ INFO [2019-11-26 11:12:36,855] ({Thread-34} InterpreterSetting.java[close]:483) - Close InterpreterSetting: livy
+ INFO [2019-11-26 11:12:36,855] ({Thread-32} InterpreterSetting.java[close]:483) - Close InterpreterSetting: flink
+ INFO [2019-11-26 11:12:36,854] ({Thread-33} InterpreterSetting.java[close]:483) - Close InterpreterSetting: angular
+ INFO [2019-11-26 11:12:36,910] ({Thread-63} InterpreterSetting.java[close]:483) - Close InterpreterSetting: alluxio
+ INFO [2019-11-26 11:12:36,910] ({Thread-62} InterpreterSetting.java[close]:483) - Close InterpreterSetting: md
+ INFO [2019-11-26 11:12:36,903] ({Thread-61} InterpreterSetting.java[close]:483) - Close InterpreterSetting: sh
+ INFO [2019-11-26 11:12:36,903] ({Thread-60} InterpreterSetting.java[close]:483) - Close InterpreterSetting: cassandra
+ INFO [2019-11-26 11:12:36,902] ({Thread-59} InterpreterSetting.java[close]:483) - Close InterpreterSetting: spark
+ INFO [2019-11-26 11:12:36,901] ({Thread-58} InterpreterSetting.java[close]:483) - Close InterpreterSetting: elasticsearch
+ INFO [2019-11-26 11:12:36,896] ({Thread-57} InterpreterSetting.java[close]:483) - Close InterpreterSetting: file
+ WARN [2019-11-26 11:12:36,895] ({Thread-39} RemoteInterpreter.java[close]:199) - close is called when RemoterInterpreter is not opened for org.apache.zeppelin.spark.SparkSqlInterpreter
+ INFO [2019-11-26 11:12:36,890] ({Thread-56} InterpreterSetting.java[close]:483) - Close InterpreterSetting: neo4j
+ INFO [2019-11-26 11:12:36,883] ({Thread-54} InterpreterSetting.java[close]:483) - Close InterpreterSetting: livy
+ INFO [2019-11-26 11:12:36,882] ({Thread-53} InterpreterSetting.java[close]:483) - Close InterpreterSetting: angular
+ INFO [2019-11-26 11:12:36,881] ({Thread-52} InterpreterSetting.java[close]:483) - Close InterpreterSetting: flink
+ INFO [2019-11-26 11:12:36,879] ({Thread-51} InterpreterSetting.java[close]:483) - Close InterpreterSetting: pig
+ INFO [2019-11-26 11:12:36,878] ({Thread-50} InterpreterSetting.java[close]:483) - Close InterpreterSetting: lens
+ INFO [2019-11-26 11:12:36,878] ({Thread-49} InterpreterSetting.java[close]:483) - Close InterpreterSetting: jdbc
+ INFO [2019-11-26 11:12:36,870] ({Thread-48} InterpreterSetting.java[close]:483) - Close InterpreterSetting: sap
+ INFO [2019-11-26 11:12:36,923] ({Thread-59} ManagedInterpreterGroup.java[close]:89) - Close InterpreterGroup: spark:shared_process
+ INFO [2019-11-26 11:12:36,918] ({Thread-66} InterpreterSetting.java[close]:483) - Close InterpreterSetting: kylin
+ INFO [2019-11-26 11:12:36,912] ({Thread-65} InterpreterSetting.java[close]:483) - Close InterpreterSetting: hbase
+ INFO [2019-11-26 11:12:36,911] ({Thread-64} InterpreterSetting.java[close]:483) - Close InterpreterSetting: bigquery
+ INFO [2019-11-26 11:12:36,940] ({Thread-13} NotebookRepoSync.java[close]:428) - Closing all notebook storages
+ INFO [2019-11-26 11:12:39,963] ({Thread-13} ZeppelinServer.java[run]:264) - Bye

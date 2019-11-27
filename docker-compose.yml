@@ -1,0 +1,106 @@
+version: "3.7"
+services:
+  spark-master:
+    image: spark-master:latest
+    container_name: spark-master
+    hostname: spark-master
+    ports:
+      - "8080:8080"
+      - "7077:7077"
+    networks:
+      spark-network:
+        ipv4_address: 172.18.0.2
+    volumes:
+       - ./apps:/opt/spark-apps
+       - ./data:/opt/spark-data
+    environment:
+      - "SPARK_LOCAL_IP=spark-master"
+  spark-worker-1:
+    image: spark-worker:latest
+    container_name: spark-worker-1
+    hostname: spark-worker-1
+    depends_on:
+      - spark-master
+    ports:
+      - "8081:8081"
+    env_file: ./env/spark-worker.sh
+    environment:
+      - "SPARK_LOCAL_IP=spark-worker-1"
+    networks:
+      spark-network:
+        ipv4_address: 172.18.0.3
+    volumes:
+       - ./apps:/opt/spark-apps
+       - ./data:/opt/spark-data
+  spark-worker-2:
+    image: spark-worker:latest
+    container_name: spark-worker-2
+    hostname: spark-worker-2
+    depends_on:
+      - spark-master
+    ports:
+      - "8082:8081"
+    env_file: ./env/spark-worker.sh
+    environment:
+      - "SPARK_LOCAL_IP=spark-worker-2"
+    networks:
+      spark-network:
+        ipv4_address: 172.18.0.4
+    volumes:
+       - ./apps:/opt/spark-apps
+       - ./data:/opt/spark-data
+  spark-worker-3:
+    image: spark-worker:latest
+    container_name: spark-worker-3
+    hostname: spark-worker-3
+    depends_on:
+      - spark-master
+    ports:
+      - "8083:8081"
+    env_file: ./env/spark-worker.sh
+    environment:
+      - "SPARK_LOCAL_IP=spark-worker-3"
+    networks:
+      spark-network:
+        ipv4_address: 172.18.0.5
+    volumes:
+       - ./apps:/opt/spark-apps
+       - ./data:/opt/spark-data
+  # zeppelin:
+  #   image: zeppelin:latest
+  #   container_name: zeppelin
+  #   hostname: zeppelin
+  #   environment:
+  #     ZEPPELIN_PORT: 8090
+  #     ZEPPELIN_JAVA_OPTS: >-
+  #       -Dspark.driver.memory=1g
+  #       -Dspark.executor.memory=2g
+  #     MASTER: "spark://spark-master:7077"
+  #   depends_on:
+  #     - spark-master
+  #   ports:
+  #     - "8090:8090"
+  #   networks:
+  #     spark-network:
+  #       ipv4_address: 172.18.0.6
+  #   volumes:
+  #     - ./data/zeppelin:/zeppelin/data
+  #     - ./apps/zeppelin/notebook:/zeppelin/notebook
+  #     - ./apps/zeppelin/logs:/zeppelin/logs
+networks:
+  spark-network:
+    external:
+      name: docker-spark-cluster_spark-network
+
+    # driver: bridge
+    # driver_opts:
+    #   com.docker.network.bridge.enable_icc: "true"
+    #   com.docker.network.bridge.enable_ip_masquerade": "true"
+    #   com.docker.network.bridge.host_binding_ipv4: 0.0.0.0
+    #   com.docker.network.driver.mtu: 1500
+    # ipam:
+    #  driver: default
+    #  config:
+    #    - subnet: 192.168.65.0/24
+
+#docker network create --driver=bridge -o "com.docker.network.bridge.name"="docker0" -o "com.docker.network.bridge.default_bridge"="true" -o "com.docker.network.bridge.enable_ip_masquerade"="true" -o "com.docker.network.bridge.enable_icc"="true" -o "com.docker.network.bridge.host_binding_ipv4"="0.0.0.0" -o "com.docker.network.driver.mtu"=1500 --subnet=172.18.0.0/16 docker-spark-cluster_spark-network

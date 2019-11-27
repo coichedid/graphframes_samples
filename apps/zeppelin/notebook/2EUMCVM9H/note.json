@@ -1,0 +1,115 @@
+{
+  "paragraphs": [
+    {
+      "text": "%spark.dep\nz.load(\"/zeppelin/notebook/graphframes-0.7.0-spark2.4-s_2.11.jar\")",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-26 11:10:37.701",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res0: org.apache.zeppelin.dep.Dependency \u003d org.apache.zeppelin.dep.Dependency@682ceccb\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1574765748802_-780622039",
+      "id": "20191126-105548_2050929170",
+      "dateCreated": "2019-11-26 10:55:48.802",
+      "dateStarted": "2019-11-26 11:10:37.752",
+      "dateFinished": "2019-11-26 11:10:50.951",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n\nimport sys\nprint(sys.path)\n# z.load(\u0027graphframes:graphframes:0.7.0-spark2.4-s_2.11\u0027\nimport graphframes",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-26 11:10:54.567",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 184.0,
+              "optionOpen": false
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "[\u0027\u0027, u\u0027/tmp/spark-d7c28354-0f83-4db8-bf19-40d845f454c3/userFiles-8d448133-eef0-42a5-8e49-070fab02b580\u0027, \u0027/opt/spark/python/lib/pyspark.zip\u0027, \u0027/opt/spark/python/lib/py4j-0.10.7-src.zip\u0027, \u0027/zeppelin/interpreter/lib/python\u0027, \u0027/opt/spark/python\u0027, \u0027/zeppelin\u0027, \u0027/opt/conda/lib/python27.zip\u0027, \u0027/opt/conda/lib/python2.7\u0027, \u0027/opt/conda/lib/python2.7/plat-linux2\u0027, \u0027/opt/conda/lib/python2.7/lib-tk\u0027, \u0027/opt/conda/lib/python2.7/lib-old\u0027, \u0027/opt/conda/lib/python2.7/lib-dynload\u0027, \u0027/opt/conda/lib/python2.7/site-packages\u0027, \u0027/opt/conda/lib/python2.7/site-packages/setuptools-27.2.0-py2.7.egg\u0027, \u0027/opt/conda/lib/python2.7/site-packages/IPython/extensions\u0027, \u0027/root/.ipython\u0027]\n\u001b[0;31m\u001b[0m\n\u001b[0;31mImportError\u001b[0mTraceback (most recent call last)\n\u001b[0;32m\u003cipython-input-4-d7d2ed930785\u003e\u001b[0m in \u001b[0;36m\u003cmodule\u003e\u001b[0;34m()\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0;32mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0msys\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mpath\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0;31m# z.load(\u0027graphframes:graphframes:0.7.0-spark2.4-s_2.11\u0027\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----\u003e 4\u001b[0;31m \u001b[0;32mimport\u001b[0m \u001b[0mgraphframes\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\n\u001b[0;31mImportError\u001b[0m: No module named graphframes"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1574763385664_1784908221",
+      "id": "20191126-101625_1939198952",
+      "dateCreated": "2019-11-26 10:16:25.664",
+      "dateStarted": "2019-11-26 11:10:54.623",
+      "dateFinished": "2019-11-26 11:11:12.011",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "user": "anonymous",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1574763392589_-471913246",
+      "id": "20191126-101632_1931185773",
+      "dateCreated": "2019-11-26 10:16:32.589",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Graphframes",
+  "id": "2EUMCVM9H",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "spark:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
