@@ -78,4 +78,4 @@ Also, this folder contains the original movielens dataset on ml-1m.
 
 File apps/graphframes_sample.py has some code to prepare movielens dataset and also to load and use this dataset with graphframes.
 
-If you are confortable with previously imported data, just copy and paste code instructions that are after "### BEGIN SAMPLE" comment line. Otherwise, run the first fill lines with your datase.
+If you are comfortable with previously imported data, just copy and paste code instructions that are after "### BEGIN SAMPLE" comment line. Otherwise, run the first fill lines with your dataset.
